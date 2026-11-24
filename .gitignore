@@ -1,0 +1,22 @@
+# Jupyter checkpoints and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local environment settings
+.env
+.venv/
+venv/
+
+# Uncompressed similarity matrix
+data/similarity.pkl
+
+# Original corrupted credits file
+data/tmdb_5000_credits.csv
+
+# Starter files kept locally for reference
+/analysis.ipynb
+/movie_recommendation.ipynb
+/model.pkl
+/app_starter_backup.txt
+/Dockerfile
